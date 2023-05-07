@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* following style will be applied to every element */
+*,
+*::before,
+*::after {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  min-height: 100vh;
+  /* text-align: center; */
+}
+
+main {
+  width: 100%;
+  flex-grow: 1;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("C:\Users\hp\Downloads\Mitsubishi-ac.jpg" );
+  background-attachment: scroll;
+  background-size: 1530px 1283px;
+  font-size: large;
+
+  background-repeat:no-repeat;
+}
+
+header {
+  position: static;
+  font-size: medium;
+  width: min-content;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #7a5b42;
+  border-bottom: 2px rgb(131, 131, 131) solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff
+}
+
+.title {
+  text-align: right;
+
+  font-weight: 800;
+  margin: 0.5rem;
+  font-size: xx-large;
+}
+
+form {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  font: inherit;
+}
+
+select {
+  font: inherit;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  font: inherit;
+  padding: 0.25rem 0.75rem;
+  color: #fff;
+  background-color: #2563eb;
+  border: 1px solid #2563eb;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-add {
+  margin-top: 0.75rem;
+}
+
+.btn-calculate {
+  padding: 0.25rem 1rem;
+  display: block;
+  margin: 1rem auto;
+}
+
+.App label {
+  display: block;
+  margin: 2rem;
+}
