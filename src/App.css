@@ -25,12 +25,12 @@ main {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url("C:\Users\hp\Downloads\Compressed\heat-load-calculator-master\heat-load-calculator-master\src\Mitsubishi-ac.jpg" );
+  background-image: url("C:\Users\Sanket Jagdale\Desktop\chets\heat-load-calculator\src\Mitsubishi-ac.jpg");
   background-attachment: scroll;
   background-size: 1530px 1283px;
   font-size: large;
 
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -45,7 +45,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff
+  color: #fff;
 }
 
 .title {
